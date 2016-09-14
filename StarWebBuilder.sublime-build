@@ -3,19 +3,19 @@
   "variants": [
     {
       "name": "GIS Desenv",
-      "cmd" : ["py", "-3", "-u", "StarWebBuilder.py", "$file"]
+      "cmd" : ["py", "-3", "-u", "StarWebBuilder/StarWebBuilder.py", "$file"]
     },
     {
       "name": "GIS+GUS Desenv",
-      "cmd" : ["py", "-3", "-u", "StarWebBuilder.py", "$file", "--env", "gisgusdesenv"]
+      "cmd" : ["py", "-3", "-u", "StarWebBuilder/StarWebBuilder.py", "$file", "--env", "gisgusdesenv"]
     },
     {
       "name": "GIS Desenv (run)",
-      "cmd" : ["py", "-3", "-u", "StarWebBuilder.py", "$file", "--run"]
+      "cmd" : ["py", "-3", "-u", "StarWebBuilder/StarWebBuilder.py", "$file", "--run"]
     },
     {
       "name": "GIS+GUS Desenv (run)",
-      "cmd" : ["py", "-3", "-u", "StarWebBuilder.py", "$file", "--env", "gisgusdesenv", "--run"]
+      "cmd" : ["py", "-3", "-u", "StarWebBuilder/StarWebBuilder.py", "$file", "--env", "gisgusdesenv", "--run"]
     }
   ]
 }
