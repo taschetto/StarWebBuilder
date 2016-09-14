@@ -1,1 +1,45 @@
-Obrigado por instalar o StarWebBuilder. ;-)
+  ___   _                 __      __        _
+ / __| | |_   __ _   _ _  \ \    / /  ___  | |__
+ \__ \ |  _| / _` | | '_|  \ \/\/ /  / -_) | '_ \
+ |___/  \__| \__,_| |_|     \_/\_/   \___| |_.__/
+              ___          _   _      _
+             | _ )  _  _  (_) | |  __| |  ___   _ _
+             | _ \ | || | | | | | / _` | / -_) | '_|
+             |___/  \_,_| |_| |_| \__,_| \___| |_|
+
+                                          by Fator 7
+
+--------------------------------------------------------------------------------
+
+Obrigado por instalar o StarWebBuilder! :-)
+
+É necessário configurar 4 variáveis de ambiente para o correto funcionamento
+deste build system. São eles:
+
+        STARWEB_USER    usuário do StarWeb
+
+    STARWEB_PASSWORD    senha do StarWeb
+
+    STARWEB_WORK_DIR    diretório local de trabalho
+
+                          Exemplo: C:\dev\tke\ait\ (Windows)
+                                   /home/fulano/projects/tke/ait/ (Linux)
+
+  STARWEB_SHARE_PATH    diretório remoto de trabalho
+
+                          Exemplo: \\stwebdv\sisweb\desenv\ait\ (Windows)
+                                   /mnt/stwebdv/ (Linux)
+
+
+--------------------------------------------------------------------------------
+
+Recomenda-se o pacote "Environment Settings" para definição das variáveis de
+de ambiente. O mesmo pode ser encontrado em:
+https://packagecontrol.io/packages/Environment%20Settings
+
+--------------------------------------------------------------------------------
+
+Dúvidas? Bugs? Pull requests? Utilize as issues do repositório oficial ou nosso
+canal no Slack.
+
+https://github.com/fator7/StarWebBuilder/
